@@ -137,54 +137,50 @@ public class KYC extends Baseclass{
 				  		    WebElement elem =driver.findElement(Config.KYCchoosefile);					    	
 						  	elem.sendKeys("C:\\Users\\DE-LT\\Downloads\\SampleJPGImage_200kbmb.jpg");
 					 			Thread.sleep(4000);				 			
-		                       System.out.println("KYCdatepicker updated  successfully!!");					            
-					            test.log(LogStatus.PASS, "KYCdatepicker  Selected  successfully"," open Screenshots : <a href=' "
+		                       System.out.println("More than 2mb  updated  successfully!!");					            
+					            test.log(LogStatus.PASS, "More than 2mb  successfully"," open Screenshots : <a href=' "
 										+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
 					    			}
 					    			catch(Exception f10)  
 					    			{
-					    				System.out.println("KYCdatepicker  Selected  failed");
+					    				System.out.println("More than 2mb  Selected  failed");
 				    				f10.getMessage();
-						            test.log(LogStatus.FAIL, "KYCdatepicker FAILEd ","To open Screenshots : <a href=' "
+						            test.log(LogStatus.FAIL, "More than 2mb FAILEd ","To open Screenshots : <a href=' "
 											+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");					            
 				  	     	} 
-				  	    
-				  	    
-				  	    
-				  	    
 				  	  Thread.sleep(2000);	
 				  	  //less than 2 mb choose file1 
 				  	       try {	  	      	   
 				  		    WebElement elem =driver.findElement(Config.KYCchoosefile);					    	
 						  	elem.sendKeys("C:\\Users\\DE-LT\\Downloads\\SampleJPGImage_50kbmb (1).jpg");
 					 			Thread.sleep(4000);				 			
-		                       System.out.println("KYCdatepicker updated  successfully!!");					            
-					            test.log(LogStatus.PASS, "KYCdatepicker  Selected  successfully"," open Screenshots : <a href=' "
+		                       System.out.println("Less than 2mb updated  successfully!!");					            
+					            test.log(LogStatus.PASS, "Less than 2mb updated   Selected  successfully"," open Screenshots : <a href=' "
 										+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
 					    			}
 					    			catch(Exception f10)  
 					    			{
-					    				System.out.println("KYCdatepicker  Selected  failed");
+					    				System.out.println("Less than 2mb updated   Selected  failed");
 				    				f10.getMessage();
-						            test.log(LogStatus.FAIL, "KYCdatepicker FAILEd ","To open Screenshots : <a href=' "
+						            test.log(LogStatus.FAIL, "Less than 2mb updated  FAILEd ","To open Screenshots : <a href=' "
 											+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");					            
-				  	     	} 
-				  	       
+				  	     	} 		  	       
 				  	     Thread.sleep(2000);	
 					  	  // choose file 2
 					  	       try {	  	      	   
 					  		    WebElement elem =driver.findElement(Config.KYCchoosefile2);					    	
 							  	elem.sendKeys("C:\\Users\\DE-LT\\Downloads\\SampleJPGImage_50kbmb (1).jpg");
 						 			Thread.sleep(4000);				 			
-			                       System.out.println("KYCdatepicker updated  successfully!!");					            
-						            test.log(LogStatus.PASS, "KYCdatepicker  Selected  successfully"," open Screenshots : <a href=' "
+			                       System.out.println("Proof 1 & 2  updated  successfully!!");					            
+						            test.log(LogStatus.PASS, "Proof 1 & 2  updated  Selected  successfully"," open Screenshots : <a href=' "
 											+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
 						    			}
 						    			catch(Exception f10)  
 						    			{
-						    				System.out.println("KYCdatepicker  Selected  failed");
+						    				System.out.println("Proof 1 & 2  updated  Selected  failed");
 					    				f10.getMessage();
-							            test.log(LogStatus.FAIL, "KYCdatepicker FAILEd ","To open Screenshots : <a href=' "
+							            test.log(LogStatus.FAIL, "Proof 1 & 2  updated"
+							            		+ " FAILEd ","To open Screenshots : <a href=' "
 												+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");					            
 					  	     	}   
 
@@ -202,20 +198,7 @@ public class KYC extends Baseclass{
 											+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
 								}	  	    
 				  	    
-				  	    
-				  	    
-				  	    
-				  	    
-				  	    
-				  
-				  	    
-				  	    
-				  	    
-				  	    
-				  	    
-				  	    
-				  	    
-				  	    
+			  	    
 	}
 }
 
