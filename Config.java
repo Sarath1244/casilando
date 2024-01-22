@@ -54,20 +54,22 @@ public class Config {
                 public static By  Cookiess             =  By.xpath("//*[@id=\"cookieviewpopup\"]/div[2]");
                 
            	        
-		        //postloginheadermenu
-		      
-                public static By home                 =  By.xpath("/html/body/div[2]/div[2]/div/div[2]/ul/li[1]/a/span");
-                public static By livecasino           =  By.xpath("/html/body/div[2]/div[2]/div/div[2]/ul/li[2]/a/span");
-                public static By livecasinogame       =  By.xpath(" /html/body/div[2]/div[4]/div[11]/div[1]/div[1]/div/img");
-             
-                public static By casino               =  By.xpath("/html/body/div[2]/div[2]/div/div[2]/ul/li[3]/a/span");
+		        //preloginheader
+                public static By home                 =  By.xpath("/html/body/div[2]/div[2]/div/div[2]/ul/li[1]/a");
+                public static By livecasino           =  By.xpath("/html/body/div[2]/div[2]/div/div[2]/ul/li[3]/a");
+                public static By casino               =  By.xpath("/html/body/div[2]/div[2]/div/div[2]/ul/li[2]/a");
                 public static By promotions           =  By.xpath("/html/body/div[2]/div[2]/div/div[2]/ul/li[4]/a/span");
                 public static By Aboutus              =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[1]/a");
                 public static By Paymentmethod        =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[2]/a");
                 public static By Privacypolicy        =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[4]/a");
-                public static By Responsibegaming     =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[5]/a");
-		        public static By Terms                =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[6]/a");
-		        public static By Contactus            =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[7]/a");
+                public static By kycpolicy            =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[5]/a");
+                public static By Responsibegaming     =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[6]/a");
+		        public static By Terms                =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[7]/a");
+		        public static By Contactus            =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[8]/a");
+		        
+		      
+		        
+		        public static By livecasinogame       =  By.xpath(" /html/body/div[2]/div[4]/div[11]/div[1]/div[1]/div/img");
 		        	        
 		        //pre login Footermenu 
                 public static By Aboutus1              =  By.cssSelector("#myPage > div.left-right-sec-main > div.main_body > div.container > div > div.container-fluid-bgfooter > div > div.black_bg > div.footer_content > div.footer_list1 > ul > li:nth-child(1) > a");
@@ -174,9 +176,13 @@ public class Config {
                 
                 
                 //game  icon  load
-                public static By   gameseeall           =  By.xpath("/html/body/div[3]/div[4]/div[11]/div/h3/a");                
+                public static By   gameiconclick        =  By.xpath("/html/body/div[3]/div[4]/div[11]/div/div/div[1]/div/div/div/div/div/div[1]");                
                 public static By   provider             =  By.xpath(" /html/body/div[3]/div[4]/div[9]/div[1]/li[6]/a");
                 public static By   chat                 =  By.xpath("/html/body/div/div/div");
+                public static By   casinogame           =  By.xpath("/html/body/div[3]/div[4]/div[11]/div/div/div[1]/div/div");
+                
+                
+                
                
                 
                
@@ -197,4 +203,3 @@ public class Config {
 
 	}
 
- 
