@@ -24,6 +24,21 @@ public class Prelogin extends Baseclass {
 			test.log(LogStatus.FAIL, "Home menu FAILED ", "To open Screenshots : <a href=' "
 					+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
 		}
+		
+		Thread.sleep(3000);
+		// Casino  Menu 
+		try {
+		driver.findElement(Config.casino).click();
+		System.out.println("Casino menu  redirect successfully");
+			test.log(LogStatus.PASS, "casino menu succesfully redirect", "To open Screenshots : <a href=' "
+					+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
+		} catch (Exception f10) {
+			System.out.println("casino menu successfully   Failed");
+
+			f10.getMessage();
+			test.log(LogStatus.FAIL, "casino menu  FAILED ", "To open Screenshots : <a href=' "
+					+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
+		}	
 		Thread.sleep(3000);
 		// livecasino Menu 
 				try {
@@ -38,41 +53,7 @@ public class Prelogin extends Baseclass {
 					test.log(LogStatus.FAIL, "livecasino menu   FAILED ", "To open Screenshots : <a href=' "
 							+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
 				}	
-				
-				
-			/*	Thread.sleep(3000);
-				// livecasino game  Menu 
-						try {
-						driver.findElement(Config.livecasinogame).click();
-						Thread.sleep(3000);
-						driver.findElement(Config.loginicon).click();
-						Thread.sleep(3000);
-						driver.findElement(Config.loginiconclose).click();
-						System.out.println("Live casino  game menu  redirect  Success");
-							test.log(LogStatus.PASS, "livecasino menu succesfully redirect", "To open Screenshots : <a href=' "
-									+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
-						} catch (Exception f10) {
-							System.out.println("livecasino  game  menu successfully   Failed");
-
-							f10.getMessage();
-							test.log(LogStatus.FAIL, "livecasino menu   FAILED ", "To open Screenshots : <a href=' "
-									+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
-						}	*/
-				
-				Thread.sleep(3000);
-				// Casino  Menu 
-				try {
-				driver.findElement(Config.casino).click();
-				System.out.println("Casino menu  redirect successfully");
-					test.log(LogStatus.PASS, "casino menu succesfully redirect", "To open Screenshots : <a href=' "
-							+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
-				} catch (Exception f10) {
-					System.out.println("casino menu successfully   Failed");
-
-					f10.getMessage();
-					test.log(LogStatus.FAIL, "casino menu  FAILED ", "To open Screenshots : <a href=' "
-							+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
-				}	
+			
 				Thread.sleep(3000);
 				// Promotions  Menu 
 				try {
@@ -128,9 +109,21 @@ public class Prelogin extends Baseclass {
 							+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
 				}
 				
-
-				
 				Thread.sleep(3000);
+				// kycpolicy  Menu 
+				try {
+				driver.findElement(Config.Privacypolicy).click();
+				System.out.println("kycpolicy menu redirect  successfully  ");
+					test.log(LogStatus.PASS, "kycpolicy menu succesfully redirect", "To open Screenshots : <a href=' "
+							+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
+				} catch (Exception f10) {
+					System.out.println("kycpolicy menu successfully  Failed");
+					f10.getMessage();
+					test.log(LogStatus.FAIL, "kycpolicy menu  FAILED ", "To open Screenshots : <a href=' "
+							+ Baseclass.takeSnapShot() + " ' target=\\\"_blank\\  >Click Here</a>");
+				}
+				
+			Thread.sleep(3000);
 				// Responsibegaming  Menu 
 				try {
 					driver.findElement(Config.Cookiess).click();
@@ -173,7 +166,7 @@ public class Prelogin extends Baseclass {
 				}
 				
 				
-				//Footer menu  
+			/*	//Footer menu  
 				// Aboutus1  Menu 
 				Thread.sleep(2000);
 				try {
@@ -190,7 +183,7 @@ public class Prelogin extends Baseclass {
 				}	
 				
 				
-			/*	Thread.sleep(2000);
+				Thread.sleep(2000);
 				// Paymentmethod1  Menu 
 				try {
 				driver.findElement(Config.Paymentmethod1).click();
