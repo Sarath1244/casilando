@@ -58,7 +58,7 @@ public class Config {
                 public static By home                 =  By.xpath("/html/body/div[2]/div[2]/div/div[2]/ul/li[1]/a");
                 public static By livecasino           =  By.xpath("/html/body/div[2]/div[2]/div/div[2]/ul/li[3]/a");
                 public static By casino               =  By.xpath("/html/body/div[2]/div[2]/div/div[2]/ul/li[2]/a");
-                public static By promotions           =  By.xpath("/html/body/div[2]/div[2]/div/div[2]/ul/li[4]/a/span");
+                public static By promotions           =  By.xpath("/html/body/div[2]/div[2]/div/div[2]/ul/li[4]/a");
                 public static By Aboutus              =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[1]/a");
                 public static By Paymentmethod        =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[2]/a");
                 public static By Privacypolicy        =  By.xpath("/html/body/div[2]/div[2]/div/div[4]/ul/li[4]/a");
@@ -151,23 +151,11 @@ public class Config {
                 public static By   KYCchoosefile       =  By.xpath("/html/body/div[3]/div[4]/div[11]/div/div/div/div[1]/form/div/div[2]/div[9]/div[1]/input[2]"); 
                 public static By   KYCchoosefile2      =  By.xpath("/html/body/div[3]/div[4]/div[11]/div/div/div/div[1]/form/div/div[2]/div[9]/div[2]/input[2]"); 
                 
-               
+               //country drop down
                 public static By   countrydropdown     =  By.xpath("/html/body/div[2]/div[2]/div/div[3]/div[1]/div");     
                 public static By   dropdown            =  By.xpath("/html/body/div[2]/div[2]/div/div[3]/div[1]/div/ul");
-            
-                
-                public static By   england             =  By.xpath("/html/body/div[2]/div[2]/div/div[3]/div[1]/div/ul/li[1]/img");                
-                public static By   finland             =  By.xpath("/html/body/div[2]/div[2]/div/div[3]/div[1]/div/ul/li[2]/img");
-                public static By   Norway              =  By.xpath("/html/body/div[2]/div[2]/div/div[3]/div[1]/div/ul/li[3]/img");             
-                public static By   canada              =  By.xpath("/html/body/div[2]/div[2]/div/div[3]/div[1]/div/ul/li[4]/img");
-                public static By   Newzealand          =   By.xpath("/html/body/div[2]/div[2]/div/div[3]/div[1]/div/ul/li[5]/img");
-                public static By   India               =   By.xpath("/html/body/div[2]/div[2]/div/div[3]/div[1]/div/ul/li[6]/img");
-                public static By   brazil              =   By.xpath("/html/body/div[2]/div[2]/div/div[3]/div[1]/div/ul/li[7]/img");
-                public static By   spanish             =   By.xpath("/html/body/div[2]/div[2]/div/div[3]/div[1]/div/ul/li[8]/img");
-                public static By   country             =  By.xpath(" /html/body/div[2]/div[2]/div/div[3]/div[1]/div/img");
-                
-                
-               // settings menu :             
+	
+        // settings menu :             
                 public static By   depositlimit         =  By.xpath("/html/body/div[3]/div[4]/div[10]/div/div/div/div/div[3]/div/nav/ul/li[2]/a");
                 public static By   depositlimitsubmit   =  By.xpath("/html/body/div[3]/div[4]/div[10]/div/div/div/div/div[3]/div/div/div[1]/form/div[2]/button");                 
                 public static By   changepassword       =  By.xpath("/html/body/div[3]/div[4]/div[10]/div/div/div/div/div[3]/div/nav/ul/li[3]/a");
@@ -180,26 +168,6 @@ public class Config {
                 public static By   provider             =  By.xpath(" /html/body/div[3]/div[4]/div[9]/div[1]/li[6]/a");
                 public static By   chat                 =  By.xpath("/html/body/div/div/div");
                 public static By   casinogame           =  By.xpath("/html/body/div[3]/div[4]/div[11]/div/div/div[1]/div/div");
-                
-                
-                
-               
-                
-               
-              
-                
-
-              
-                
-               
-             
-                
-                
-               
-               
-                
-              
-                
-
 	}
 
+ 
